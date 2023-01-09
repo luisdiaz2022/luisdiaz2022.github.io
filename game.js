@@ -120,7 +120,7 @@ function movePlayer() {
   if (giftCollision) {
     levelWin();
   }
-
+ 
   const enemyCollision = enemyPositions.find(enemy => {
     const enemyCollisionX = enemy.x.toFixed(3) == playerPosition.x.toFixed(3);
     const enemyCollisionY = enemy.y.toFixed(3) == playerPosition.y.toFixed(3);
